@@ -1,1 +1,3 @@
+19 jan 
+responsiveness updated for footer in website front end
 
