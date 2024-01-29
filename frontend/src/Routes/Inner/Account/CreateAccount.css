@@ -1,0 +1,38 @@
+.checker {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .createacc {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .createacc:hover {
+    color: black;
+  }
+  
+  .form input {
+    border-radius: 10px;
+    margin: 5px 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .former {
+    width: 85%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .checker {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
