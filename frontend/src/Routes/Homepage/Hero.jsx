@@ -8,7 +8,8 @@ import MyModal from "/src/Components/modals/SigninModal";
 import { productlist } from "/src/Data/Productslist";
 import LocationComponent from "/src/Data/LocationComponent";
 
-import { Login } from "/src/Profile/IsLogin";
+import IsLoggedIn from '/src/Profile/IsLogin.js';
+
 
 function Hero(props) {
   const [showModal, setShowModal] = useState(false);
@@ -107,7 +108,7 @@ function Hero(props) {
               className="btn buy btn-outline-info mx-2 my-2"
               onClick={() => {
                 if (value) {
-                  if (Login) {
+                  if (IsLoggedIn) {
                     navigate("/sell");
                   } else {
                     navigate("/login");

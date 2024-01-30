@@ -1,0 +1,26 @@
+.h {
+    margin: 3rem 0 0 0;
+  }
+  
+  .coll {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .h {
+      margin: 3rem 0 0 0;
+    }
+  
+    .coll {
+      align-items: center;
+      margin: 1rem 2rem;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
