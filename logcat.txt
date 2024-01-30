@@ -2,4 +2,6 @@
 responsiveness updated for footer in website front end
 learnt about breadcrumb for website
 
+29 jan integrating with front end and backend in github
+
 
