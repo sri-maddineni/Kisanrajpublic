@@ -1,0 +1,39 @@
+.bread {
+    display: flex;
+    margin: 0.5rem 0.3rem;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    border: solid 2px red;
+  
+    border-radius: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(85, 0, 255);
+  }
+  
+  .separator {
+    margin: 0 1px;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .bread {
+      margin: 0.5rem 0.3rem;
+      padding: 0.5rem 0.5rem;
+  
+      border: solid 2px red;
+    }
+  
+    .link {
+      text-decoration: none;
+      font-weight: 700;
+      color: rgb(85, 0, 255);
+    }
+  
+    .separator {
+      margin: 0 2px;
+    }
+  }
+  

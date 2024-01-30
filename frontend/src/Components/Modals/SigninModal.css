@@ -1,0 +1,148 @@
+.modal-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: aliceblue;
+  }
+  
+  #former {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .former input {
+    margin: 0.5rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .closer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    cursor: pointer;
+    margin: 1rem 1rem 0 0;
+  }
+  
+  .modal-container {
+    position: fixed;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    border-radius: 0.5rem;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+  }
+  
+  .modal-btn {
+    border: none;
+    border-radius: 0.3rem;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    transform: scale(0.9);
+  }
+  
+  .modal-btn:hover {
+    background-color: #fff;
+    color: black;
+    border: black;
+    transform: scale(1);
+    transition: all 0.1s;
+    box-shadow: rgba(0, 0, 0, 0.16);
+  }
+  
+  .former input {
+    margin: 0.5rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 85%;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .modal-wrapper {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background-color: aliceblue;
+    }
+  
+    .modal-container {
+      position: fixed;
+      width: 70%;
+      top: 50%;
+      left: 50%;
+      align-items: center;
+      border-radius: 0.5rem;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+    }
+  
+    .modal-btn {
+      border: none;
+      border-radius: 0.3rem;
+      background-color: black;
+      color: #fff;
+      cursor: pointer;
+      font-family: "Work Sans", sans-serif;
+      transform: scale(0.9);
+    }
+  
+    .modal-btn:hover {
+      background-color: #fff;
+      color: black;
+      border: black;
+      transform: scale(1);
+      transition: all 0.1s;
+      box-shadow: rgba(0, 0, 0, 0.16);
+    }
+  
+    #former {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .former input {
+      margin: 0.5rem;
+      border-radius: 5px;
+      padding: 0.5rem;
+      width: 85%;
+    }
+  
+    .closer {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column-reverse;
+      cursor: pointer;
+      margin: 1rem 1rem 0 0;
+    }
+  
+    .loginbtn {
+      background-color: black;
+      color: aqua;
+      border: aqua solid 1.5px;
+    }
+  
+    .loginbtn:hover {
+      color: white;
+    }
+  }
+  

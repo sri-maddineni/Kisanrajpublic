@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Menuitem } from "./Menuitem";
+import { Menuitem } from "/src/Data/Menuitem";
 import "./Navbar.css";
 
 // Import Link component

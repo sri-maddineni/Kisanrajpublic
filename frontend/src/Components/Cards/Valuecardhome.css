@@ -1,0 +1,46 @@
+.valuecard {
+    display: flex;
+    margin: 2rem 1rem;
+    background-color: aqua;
+    width: 30%;
+    align-items: center;
+  
+    flex-direction: column;
+  
+    padding: 1rem 1rem;
+  }
+  
+  .collection {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .valuecard h3 {
+    display: flex;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .collection {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .valuecard {
+      display: flex;
+      margin: 1rem 1rem;
+      background-color: aqua;
+      width: 85%;
+      align-items: center;
+      position: relative;
+      flex-direction: column;
+      padding: 1rem 1rem;
+    }
+  
+    .valuecard h3 {
+      display: flex;
+    }
+  }
+  
