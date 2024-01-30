@@ -1,7 +1,7 @@
 import Navbar from "/src/Components/Navbar/Navbar";
 import Breadcrumps from "/src/Components/Breadcrumps/Breadcrumps";
 import Footer from "../../Components/Footer/Footer";
-
+import Hero from "../Homepage/Hero";
 import Sellcard from "./selling/Sellcard";
 import Sellers from "/src/Data/Sellers.js";
 
@@ -41,7 +41,16 @@ function Commodities() {
   return (
     <>
       <Navbar />
+      <Hero
+        title="Buy and Sell in advance"
+        imglink="https://media.istockphoto.com/id/487491992/photo/farmers-food-market-stall-with-variety-of-organic-vegetable.jpg?s=612x612&w=0&k=20&c=8LwR_owLOl62mUOb0GElxgNz8hsgtgeSmzBu9OvodkI="
+        btnclass="hide"
+        url="/"
+        cname="hero"
+        linktitle="Travel Plan"
+      />
       <Breadcrumps path={breadcrumbPath} />
+      
 
       <div className="sellers">
         {Sellers.filter((seller) =>
