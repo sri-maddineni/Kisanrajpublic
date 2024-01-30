@@ -9,7 +9,7 @@ import CreateAccount from "./Routes/Inner/Account/CreateAccount";
 import Login from "/src/Profile/Login";
 
 import "./App.css";
-import Sell from "./Routes/Inner/Sell";
+import Sell from "./Routes/Inner/Sell/Sell";
 import Buy from "./Routes/Inner/Products/Buy";
 
 export default function App() {

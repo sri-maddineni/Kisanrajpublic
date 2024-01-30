@@ -1,0 +1,126 @@
+.totalcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 2px aqua;
+    margin: 5px;
+    align-items: center;
+    border-radius: 5px;
+    width: 23%;
+  }
+  
+  .comdetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+    padding: 2px;
+    width: 95%;
+  }
+  
+  .comdetails p {
+    font-size: 0.8rem;
+    margin: 1px;
+  }
+  
+  .sellcardimage {
+    height: 20vh;
+  
+    margin: 5px;
+  }
+  
+  .sellcardimage img {
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .sellcardimage:hover img {
+    transform: scale(1.05);
+  }
+  
+  #loginbtn {
+    margin: 5px;
+    transition: ease-in-out 0.2s;
+  }
+  
+  #loginbtn:hover {
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .cmedia {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px 0;
+  }
+  
+  .cmedia a {
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+    width: 1.5rem;
+  }
+  
+  .sellcardseller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+    padding: 4px;
+    width: 95%;
+  }
+  
+  .sellcardseller p {
+    padding: 0px;
+    margin: 1px;
+    font-size: 0.8rem;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .totalcard {
+      display: flex;
+      flex-direction: column;
+      border: solid 2px aqua;
+      margin: 5px;
+      align-items: center;
+      border-radius: 5px;
+  
+      width: 95%;
+    }
+  
+    .comdetails {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2px 5px;
+      padding: 4px;
+      justify-content: space-between;
+      width: 100%;
+    }
+  
+    .sellcardseller {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2px;
+      padding: 4px;
+      width: 100%;
+    }
+  
+    .sellcardimage {
+      width: 50%;
+      height: 25vh;
+      margin: 2px;
+    }
+  
+    .sellcardimage img {
+      border-radius: 10px;
+      transition: 0.2s ease-in-out;
+    }
+  
+    .sellcardimage:hover img {
+      transform: scale(1.05);
+    }
+  }
+  

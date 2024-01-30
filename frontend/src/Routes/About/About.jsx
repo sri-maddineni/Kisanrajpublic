@@ -1,6 +1,6 @@
-import Navbar from "../Components/Navbar";
-import Hero from "../Components/Hero";
-import Footer from "../Components/Footer/Footer";
+import Navbar from "/src/Components/Navbar/Navbar";
+import Hero from "/src/Routes/Homepage/Hero";
+import Footer from "/src/Components/Footer/Footer";
 
 function About() {
   return (

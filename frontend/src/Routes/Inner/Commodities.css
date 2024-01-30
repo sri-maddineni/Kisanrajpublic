@@ -1,0 +1,16 @@
+.sellers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .sellers {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+  
