@@ -1,16 +1,16 @@
 import Navbar from "/src/Components/Navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
-import Home from "/src/Routes/Homepage/Home"
-import About from "./Routes/About/About";
-import Contact from "./Routes/Contact/Contact";
-import Service from "./Routes/Service/Service";
+import Home from "/src/Routes/Homepage/Home";
+import About from "/src/Routes/About/About";
+import Contact from "/src/Routes/Contact/Contact";
+import Service from "/src/Routes/Service/Service";
 import Commodities from "./Routes/Inner/Commodities";
 import CreateAccount from "./Routes/Inner/Account/CreateAccount";
 import Login from "/src/Profile/Login";
 
-import "./App.css";
-import Sell from "./Routes/Inner/Sell/Sell";
-import Buy from "./Routes/Inner/Products/Buy";
+import "./index.css";
+import Sell from "/src/Routes/Inner/Sell/Sell";
+import Buy from "/src/Routes/Inner/Products/Buy";
 
 export default function App() {
   return (
